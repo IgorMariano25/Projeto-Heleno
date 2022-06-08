@@ -7,6 +7,13 @@ const Card = styled.div`
     height: 94px;
     background-color: #002555;
     display:flex;
+    a {
+        color: white;
+        margin-right: 20px;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
 `;
 
 const Img = styled.img`
@@ -25,8 +32,5 @@ const Textos = styled.div`
     margin: 1%;
 `;
 
-const Link = styled.a`
-    
-`;
 
-export { Card, Img, Textos, Link }
+export { Card, Img, Textos }

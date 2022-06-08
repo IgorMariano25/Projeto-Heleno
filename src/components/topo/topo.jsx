@@ -10,10 +10,10 @@ const Topo = ( props ) => {
                 path = "/"
             />
             <Textos>
-                <Link style={{ color: '#FFF' }} to="/">Home</Link>
-                <Link style={{ color: '#FFF' }} to="/Portfolios">Portfolios</Link>
-                <Link style={{ color: '#FFF' }} to="/">Alunos</Link>
-                <Link style={{ color: '#FFF' }} to="/">Contato</Link>
+                <Link to="/">Home</Link>
+                <Link to="/Portfolios">Portfolios</Link>
+                <Link to="/Alunos">Alunos</Link>
+                <Link to="/Contato">Contato</Link>
             </Textos>
         </Card>
     );
