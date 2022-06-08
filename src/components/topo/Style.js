@@ -10,9 +10,11 @@ const Card = styled.div`
     a {
         color: white;
         margin-right: 20px;
+        transition: --offset 300ms, text-decoration-color 300ms;
     }
     a:hover{
         text-decoration: underline;
+        text-underline-offset: 0.4em;
     }
 `;
 
