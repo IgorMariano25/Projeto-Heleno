@@ -3,11 +3,12 @@ import styled from "styled-components";
 const Card = styled.div`
     top: 0px;
     left: 36px;
-    width: 1929px;
+    width: auto;
     height: 94px;
     background-color: #002555;
     display:flex;
     a {
+        text-decoration: none;
         color: white;
         margin-right: 20px;
         transition: --offset 300ms, text-decoration-color 300ms;
@@ -19,20 +20,23 @@ const Card = styled.div`
 `;
 
 const Img = styled.img`
-    height: 45%;
+    height: 3em;
+    margin-right: 0%;
     margin: 15px;
-    margin-left: 7%;
+    margin-left: 10em;
 `;
 
 const Textos = styled.div`
     font-family: 'Dosis', sans-serif;
+    font-size: 18px;
     flex-grow: 1;
     padding: 0.8em;
     border-radius: 0  8px  8px 0;
     text-decoration: none;
     color:white;
     margin: 1%;
+    margin-left: 25px;
 `;
 
 
-export { Card, Img, Textos }
+export { Card, Img, Textos, } 
