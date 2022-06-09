@@ -1,0 +1,45 @@
+[
+    {
+        "nome": "Clarissa Proença",
+        "imagem" : "c.jpeg",
+        "curso" : "Análise e Desenvolvimento de Sistemas",
+        "matricula": "202002422789",
+        "ingresso": "2022.1",
+        "formacao": "2024",
+        "bio": "Sou formada na UFRJ 2019 em Design e agora sou aluna de full-stack no Ibmec",
+        "Projetos": "Projeto Heleno"
+    }
+    ,
+    {
+        "nome": "Igor Mariano",
+        "imagem" : "i.jpeg",
+        "curso" : "Análise e Desenvolvimento de Sistemas",
+        "matricula": "202051724821",
+        "ingresso": "2022.1",
+        "formacao": "2024",
+        "bio": "...",
+        "Projetos": "Projeto Heleno"
+    }
+    ,
+    {
+        "nome": "Guilherme Felix",
+        "imagem" : "g.jpeg",
+        "curso" : "Análise e Desenvolvimento de Sistemas",
+        "matricula": "2022",
+        "ingresso": "2022.1",
+        "formacao": "2024",
+        "bio": "O Gui",
+        "Projetos": "Projeto Heleno"
+    }
+    ,
+    {
+        "nome": "Felipe Castelhano",
+        "imagem" : "f.jpeg",
+        "curso" : "Análise e Desenvolvimento de Sistemas",
+        "matricula": "...",
+        "ingresso": "2022.1",
+        "formacao": "2024",
+        "bio": "...",
+        "Projetos": "Projeto Heleno"
+    }
+]
