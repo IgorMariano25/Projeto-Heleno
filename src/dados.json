@@ -1,7 +1,7 @@
 [
     {
         "nome": "Clarissa Proença",
-        "imagem" : "clarissa.jpeg",
+        "imagem" : "clarissa.png",
         "curso" : "Análise e Desenvolvimento de Sistemas",
         "matricula": "202002422789",
         "ingresso": "2022.1",
@@ -12,7 +12,7 @@
     ,
     {
         "nome": "Igor Mariano",
-        "imagem" : "igor.jpeg",
+        "imagem" : "igor.png",
         "curso" : "Análise e Desenvolvimento de Sistemas",
         "matricula": "202051724821",
         "ingresso": "2022.1",
@@ -23,7 +23,7 @@
     ,
     {
         "nome": "Guilherme Felix",
-        "imagem" : "gui.jpeg",
+        "imagem" : "gui.png",
         "curso" : "Análise e Desenvolvimento de Sistemas",
         "matricula": "2022",
         "ingresso": "2022.1",
@@ -34,7 +34,7 @@
     ,
     {
         "nome": "Felipe Castelhano",
-        "imagem" : "felipe.jpeg",
+        "imagem" : "felipe.png",
         "curso" : "Análise e Desenvolvimento de Sistemas",
         "matricula": "202203287702",
         "ingresso": "2022.1",

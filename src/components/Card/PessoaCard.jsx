@@ -1,4 +1,5 @@
-import styled from "/Style";
+import { Card, Textos, Nome , Img, Curso} from "./Style";
+
 
 const PessoaCard = ( props ) => {
     return (
@@ -9,7 +10,7 @@ const PessoaCard = ( props ) => {
             />
             <Textos>
                 <Nome> {props.nome} </Nome>
-                <Cpf>CPF: { props.cpf} </Cpf>
+                <Curso>CURSO: { props.curso} </Curso>
             </Textos>
         </Card>
     )
