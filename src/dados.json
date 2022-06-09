@@ -1,7 +1,7 @@
 [
     {
         "nome": "Clarissa Proença",
-        "imagem" : "c.jpeg",
+        "imagem" : "clarissa.jpeg",
         "curso" : "Análise e Desenvolvimento de Sistemas",
         "matricula": "202002422789",
         "ingresso": "2022.1",
@@ -12,34 +12,34 @@
     ,
     {
         "nome": "Igor Mariano",
-        "imagem" : "i.jpeg",
+        "imagem" : "igor.jpeg",
         "curso" : "Análise e Desenvolvimento de Sistemas",
         "matricula": "202051724821",
         "ingresso": "2022.1",
         "formacao": "2024",
-        "bio": "...",
+        "bio": "Uma pessoa muito simpática, confia",
         "Projetos": "Projeto Heleno"
     }
     ,
     {
         "nome": "Guilherme Felix",
-        "imagem" : "g.jpeg",
+        "imagem" : "gui.jpeg",
         "curso" : "Análise e Desenvolvimento de Sistemas",
         "matricula": "2022",
         "ingresso": "2022.1",
         "formacao": "2024",
-        "bio": "O Gui",
+        "bio": "Deve ser o Gui",
         "Projetos": "Projeto Heleno"
     }
     ,
     {
         "nome": "Felipe Castelhano",
-        "imagem" : "f.jpeg",
+        "imagem" : "felipe.jpeg",
         "curso" : "Análise e Desenvolvimento de Sistemas",
-        "matricula": "...",
+        "matricula": "202203287702",
         "ingresso": "2022.1",
         "formacao": "2024",
-        "bio": "...",
+        "bio": "Lutador e estudante",
         "Projetos": "Projeto Heleno"
     }
 ]
