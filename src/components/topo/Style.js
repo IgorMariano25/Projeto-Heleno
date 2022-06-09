@@ -10,7 +10,7 @@ const Card = styled.div`
     a {
         text-decoration: none;
         color: white;
-        margin-right: 20px;
+        margin-right: 35px;
         transition: --offset 300ms, text-decoration-color 300ms;
     }
     a:hover{
@@ -27,7 +27,9 @@ const Img = styled.img`
 `;
 
 const Textos = styled.div`
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Barlow';
+    font-weight: 500;
+    font-style: italic;
     font-size: 18px;
     flex-grow: 1;
     padding: 0.8em;
@@ -35,8 +37,10 @@ const Textos = styled.div`
     text-decoration: none;
     color:white;
     margin: 1%;
-    margin-left: 25px;
+    margin-left: 10px; 
 `;
+
+
 
 
 export { Card, Img, Textos, } 
