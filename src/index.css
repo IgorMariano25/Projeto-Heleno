@@ -3,7 +3,15 @@
 
 .ContainerCard {
     display: flex;
-    gap: .5em;
+    gap: .8em;
     margin-top: .8em;
     justify-content: center;
+    flex-flow: column;
+    align-items: center
+}
+
+@media screen and (min-width: 1024px){
+    .ContainerCard{
+        flex-flow: row;
+    }
 }

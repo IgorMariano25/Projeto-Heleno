@@ -10,6 +10,11 @@ const Card = styled.div`
     flex-flow: column;
     padding: .5em;
 
+    &:hover{
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
+
 
 `;
 const Img = styled.img`
@@ -20,7 +25,7 @@ const Img = styled.img`
 `;
 
 const Textos = styled.div`
-     font-family: Arial, Helvetica, sans-serif;
+     font-family: 'Barlow';
      background-color: #F5AC00;
      flex-grow: 1;
      padding: 1em;
@@ -36,11 +41,11 @@ const Textos = styled.div`
 
 const Nome = styled.p`
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
 `;
 
 const Curso = styled.p`
-     font-weight: 200;
+     font-weight: 400;
 `;
 
 export {Card, Img, Textos, Nome, Curso}
