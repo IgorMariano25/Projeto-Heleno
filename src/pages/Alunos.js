@@ -5,8 +5,8 @@ import arquivo from "../dados.json";
 const Pessoas = () => {
     return (
         <div>
-            <Topo>
-            </Topo>
+            <Topo/>
+            <div className="ContainerCard">
             {
                     arquivo.map( (p, ind) => (
                         <PessoaCard 
@@ -17,6 +17,7 @@ const Pessoas = () => {
                         />
                         ))
                 }
+            </div>
         </div>       
     )
 }

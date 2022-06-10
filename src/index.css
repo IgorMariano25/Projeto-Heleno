@@ -1,2 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+
+.ContainerCard {
+    display: flex;
+    gap: .5em;
+    margin-top: .8em;
+    justify-content: center;
+}

@@ -10,7 +10,7 @@ const PessoaCard = ( props ) => {
             />
             <Textos>
                 <Nome> {props.nome} </Nome>
-                <Curso>CURSO: { props.curso} </Curso>
+                <Curso>{ props.curso} </Curso>
             </Textos>
         </Card>
     )

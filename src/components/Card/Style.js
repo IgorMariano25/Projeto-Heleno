@@ -1,24 +1,36 @@
 import styled from "styled-components";
 
+
 const Card = styled.div`
-width: 20em;
-border-width: 1px;
-background-color: aquamarine;
-display: block;
+    width: 20em;
+    border-width: 1px;
+    background-color: #002555;
+    display: flex;
+    border-radius: 5%;
+    flex-flow: column;
+    padding: .5em;
+
 
 `;
 const Img = styled.img`
-      width: 15em;
+      width: 10em;
       border-radius: 50%;
-      margin: 3px;
+      margin: auto;
       
 `;
 
 const Textos = styled.div`
      font-family: Arial, Helvetica, sans-serif;
-     background-color: crimson;
+     background-color: #F5AC00;
      flex-grow: 1;
-     padding: .5em;
+     padding: 1em;
+     text-align: center;
+     bottom: 0;
+     margin: 0;
+     width: auto;
+     border-bottom-left-radius: 5%;
+     border-bottom-right-radius: 5%;
+     
      
 `;
 
