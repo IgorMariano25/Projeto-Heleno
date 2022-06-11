@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom';
 const Topo = ( props ) => {
     return(
         <Card>
-            <a href="/"><Img 
-                    src={ `imagens/logoIBMECescuro.png` }
+            <a href="/"><Img
+                    src={ `imagens/logoIBMECFundoAzul.png` }
                     alt={'logo do IBMEC'}
             /></a>
             <Textos>

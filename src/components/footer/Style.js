@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Footer = styled.div`
+const Footer = styled.footer`
     bottom: 0%;
     left:0,033%; /* 36px / 1080px  */
     width: 100%;
@@ -17,4 +17,3 @@ const Logo = styled.img`
 `;
 
 export { Footer, Logo }
-
