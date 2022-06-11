@@ -9,9 +9,11 @@ const Footer = styled.div`
 `;
 
 const Logo = styled.img`
-    height: 5em;
+    height: 3em;
+    margin-right: 0%
     margin: 0,0138%; /* 15px / 1080px*/
-    margin-left: 7%;
+    margin-left: 10em;
+
 `;
 
 export { Footer, Logo }

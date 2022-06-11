@@ -4,7 +4,7 @@ const RodaPe = (props) => {
     return(
         <Footer>
             <Logo
-                src={ `imagens/logoIBMECclaro.png` }
+                src={ `imagens/logoIBMECFundoAmarelo.png` }
                 alt={ 'Logo do IBMEC' }
             />
         </Footer>
