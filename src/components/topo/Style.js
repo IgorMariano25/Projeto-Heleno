@@ -4,7 +4,7 @@ const Card = styled.div`
     top: 0px;
     left: 36px;
     width: auto;
-    height: 94px;
+    height: 75px;
     background-color: #002555;
     display:flex;
     a {
@@ -16,6 +16,7 @@ const Card = styled.div`
     a:hover{
         text-decoration: underline;
         text-underline-offset: 0.4em;
+        color: #F5AC00
     }
 `;
 
@@ -37,10 +38,21 @@ const Textos = styled.div`
     text-decoration: none;
     color:white;
     margin: 1%;
-    margin-left: 10px; 
+    margin-left: 10px;
 `;
 
+const DivRede = styled.div`
+    margin-right: 230px;
+`;
 
+const ListaRede = styled.ul`
+    display: flex;
+    list-style-type: none;
+`;
 
+const IconeRedeSocial = styled.img`
+    width: 35px;
+    height: 35px;
+`;
 
-export { Card, Img, Textos, } 
+export { Card, Img, Textos, DivRede, ListaRede, IconeRedeSocial}

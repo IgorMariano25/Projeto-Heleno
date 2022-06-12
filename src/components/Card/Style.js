@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 const Card = styled.div`
     width: 20em;
     border-width: 1px;
@@ -14,14 +13,12 @@ const Card = styled.div`
         transform: scale(1.05);
         transition: transform 0.3s ease;
     }
-
-
 `;
+
 const Img = styled.img`
       width: 10em;
       border-radius: 50%;
       margin: auto;
-      
 `;
 
 const Textos = styled.div`
@@ -35,13 +32,12 @@ const Textos = styled.div`
      width: auto;
      border-bottom-left-radius: 5%;
      border-bottom-right-radius: 5%;
-     
-     
 `;
 
 const Nome = styled.p`
     text-transform: uppercase;
     font-weight: 600;
+    font-style: Italic;
 `;
 
 const Curso = styled.p`
@@ -49,5 +45,3 @@ const Curso = styled.p`
 `;
 
 export {Card, Img, Textos, Nome, Curso}
-
-

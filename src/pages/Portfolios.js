@@ -4,10 +4,8 @@ import RodaPe from "../components/footer/footer";
 const Pessoas = () => {
     return (
         <div>
-            <Topo>
-            </Topo>
-            
-            <RodaPe></RodaPe>
+            <Topo/>
+            <RodaPe/>
         </div>
     );
 }
