@@ -26,7 +26,7 @@ const SubTitulo = styled.h2`
     font-size: 35px;
     color: #002555;
     margin-left: 500px;
-    margin-top: 150px;
+    margin-top: 45px;
 `;
 
 const Video = styled.video`
