@@ -3,10 +3,11 @@ import { Footer, Logo, DivRede, ListaRede, IconeRedeSocial} from "./Style.js";
 const RodaPe = (props) => {
     return(
             <Footer>
-                <Logo
+                <a href="/">
+                    <Logo
                     src={ `imagens/logoIBMECFundoAmarelo.png` }
                     alt={ 'Logo do IBMEC' }
-                />
+                /></a>
 
                 <DivRede>
                     <ListaRede>
