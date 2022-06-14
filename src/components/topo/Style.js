@@ -41,18 +41,4 @@ const Textos = styled.div`
     margin-left: 10px;
 `;
 
-const DivRede = styled.div`
-    margin-right: 230px;
-`;
-
-const ListaRede = styled.ul`
-    display: flex;
-    list-style-type: none;
-`;
-
-const IconeRedeSocial = styled.img`
-    width: 35px;
-    height: 35px;
-`;
-
-export { Card, Img, Textos, DivRede, ListaRede, IconeRedeSocial}
+export { Card, Img, Textos }
