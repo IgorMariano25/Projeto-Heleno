@@ -41,9 +41,6 @@ const Textos = styled.div`
     margin-left: 10px;
 `;
 
-<<<<<<< HEAD
-export { Card, Img, Textos }
-=======
 const DivRede = styled.div`
     margin-right: 230px;
 `;
@@ -59,4 +56,3 @@ const IconeRedeSocial = styled.img`
 `;
 
 export { Card, Img, Textos, DivRede, ListaRede, IconeRedeSocial}
->>>>>>> c703f72 (Criação do formulário e imagem para página de contato, ainda está na fase de edição)

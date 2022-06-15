@@ -11,14 +11,9 @@ const Footer = styled.footer`
 `;
 
 const Logo = styled.img`
-<<<<<<< ours
-    height: 3em;
-    margin-right: 0%;
-=======
     height: 2.5em;
     margin-right: 0%;
     margin-top: 0.8em;
->>>>>>> theirs
     margin: 0,0138%; /* 15px / 1080px*/
     margin-left: 10em;
 `;

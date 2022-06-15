@@ -12,42 +12,42 @@ const RodaPe = (props) => {
                 <DivRede>
                     <ListaRede>
                         <li>
-                            <a href="https://www.instagram.com/ibmec/"><IconeRedeSocial
+                            <a href="https://www.instagram.com/ibmec/" target="_blank"><IconeRedeSocial
                             src={ `Logo Redes Sociais/Instagram Azul.png` }
                             alt={ `Instagram do Ibmec` }
                         /></a>
                         </li>
 
                         <li>
-                            <a href="https://twitter.com/Ibmec_oficial"><IconeRedeSocial
+                            <a href="https://twitter.com/Ibmec_oficial" target="_blank"><IconeRedeSocial
                             src={ `Logo Redes Sociais/Twitter Azul.png` }
                             alt={ `Twitter do Ibmec` }
                         /></a>
                         </li>
 
                         <li>
-                            <a href="https://www.facebook.com/Ibmec/"><IconeRedeSocial
+                            <a href="https://www.facebook.com/Ibmec/" target="_blank"><IconeRedeSocial
                             src={ `Logo Redes Sociais/Facebook Azul.png` }
                             alt={ `Facebook do Ibmec` }
                         /></a>
                         </li>
 
                         <li>
-                            <a href="https://br.linkedin.com/school/ibmec"><IconeRedeSocial
+                            <a href="https://br.linkedin.com/school/ibmec" target="_blank"><IconeRedeSocial
                             src={ `Logo Redes Sociais/LinkedIn Azul.png` }
                             alt={ `LinkedIn do Ibmec` }
                         /></a>
                         </li>
 
                         <li>
-                            <a href="https://api.whatsapp.com/send?phone=5511988593403"><IconeRedeSocial
+                            <a href="https://api.whatsapp.com/send?phone=5511988593403" target="_blank"><IconeRedeSocial
                             src={ `Logo Redes Sociais/WhatsApp Azul.png` }
                             alt={ `WhatsApp do Ibmec` }
                         /></a>
                         </li>
 
                         <li>
-                            <a href="https://www.ibmec.br/"><IconeRedeSocial
+                            <a href="https://www.ibmec.br/" target="_blank"><IconeRedeSocial
                             src={ `Logo Redes Sociais/Globo Azul.png` }
                             alt={ `Site principal do Ibmec` }
                         /></a>
