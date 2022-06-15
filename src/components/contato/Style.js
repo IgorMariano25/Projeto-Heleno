@@ -23,15 +23,13 @@ const Subtitulo = styled.span`
 
 const Informacoes = styled.div`
     margin-top: 1em;
-    display: flex;
-    flex-direction: row;
+    display: block;
     border-radius: 0;
 `;
 
-const boxFormulario = styled.form`
+const BoxFormulario = styled.div`
     margin-top: 1em;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     border-radius: 0;
 `;
 
@@ -47,4 +45,17 @@ const Form = styled.input`
     border-bottom: solid 3px #000000;
 `;
 
-export { Titulo, Informacoes, Subtitulo, Form, Img, boxFormulario }
+const Conteudo = styled.div`
+    display:flex;
+`;
+
+const Botao = styled.input`
+    background-color: #002555;
+    border: none;
+    border-radius: 5px;
+    height: 2em;
+    color: white;
+    font-weight: 800;
+`;
+
+export { Titulo, Informacoes, Subtitulo, Form, Img, BoxFormulario, Conteudo, Botao };
