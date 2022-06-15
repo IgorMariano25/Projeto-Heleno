@@ -3,9 +3,10 @@ import {Link} from 'react-router-dom';
 
 const Topo = ( props ) => {
     return(
+        <nav>
         <Card>
-            <a href="/"><Img 
-                    src={ `imagens/logoIBMECescuro.png` }
+            <a href="/"><Img
+                    src={ `imagens/logoIBMECFundoAzul.png` }
                     alt={'logo do IBMEC'}
             /></a>
             <Textos>
@@ -14,6 +15,7 @@ const Topo = ( props ) => {
                 <Link to="/Contato">Contato</Link>
             </Textos>
         </Card>
+        </nav>
     );
 }
 
