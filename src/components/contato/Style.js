@@ -25,7 +25,6 @@ const Informacoes = styled.div`
     margin-top: 1em;
     display: flex;
     flex-direction: row;
-    backgroung-color: crimson;
     border-radius: 0;
 `;
 
@@ -33,7 +32,6 @@ const boxFormulario = styled.form`
     margin-top: 1em;
     display: flex;
     flex-direction: column;
-    backgroung-color: crimson;
     border-radius: 0;
 `;
 
