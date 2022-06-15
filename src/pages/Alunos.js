@@ -2,7 +2,7 @@ import Topo from "../components/topo/topo";
 import RodaPe from "../components/footer/footer";
 import PessoaCard from "../components/Card/PessoaCard";
 import arquivo from "../dados.json";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { useSearchParams } from "react-router-dom";
 
 const Pessoas = () => {
@@ -11,7 +11,7 @@ const Pessoas = () => {
     const entrada = useRef();
 
 
-    const filtra = (dados) => {
+    const filtra = useCallback((dados) => {
         const parametro = parametros.get("busca");
 
         if (!parametro) {
@@ -24,7 +24,7 @@ const Pessoas = () => {
             return filtrados;
         }
        
-    }
+    }, [parametros]);
 
 
     useEffect(() => {
