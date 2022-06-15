@@ -31,7 +31,7 @@ const Pessoas = () => {
         const dadosFiltrados = filtra(arquivo);     
         setDados(dadosFiltrados);
 
-    });
+    }, [filtra]);
 
     return (
         <div>
