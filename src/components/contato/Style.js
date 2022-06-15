@@ -1,23 +1,23 @@
 import styled from "styled-components";
 
 const Img = styled.img`
-    height: 30em;
-    margin-right: 0%;
-    margin: 15px;
+    height: 34em;
+    margin-top: 2em;
     margin-left: 10em;
+    margin-right: 10%;
     margin-bottom: 0.8em;
 `;
 
 const Titulo = styled.h1`
     font-family: 'Barlow';
-    font-size: 13px;
+    font-size: 25px;
     font-weight: 800;
 `;
 
 const Subtitulo = styled.span`
     font-family: 'Barlow';
     font-weight: 100;
-    font-size: 20px;
+    font-size: 25px;
     font-style: italic;
 `;
 
@@ -42,20 +42,29 @@ const Form = styled.input`
     border-top: none;
     border-right: none;
     border-left: none;
-    border-bottom: solid 3px #000000;
+    border-bottom: solid 2px #000000;
+    width: 30em;
+    margin-bottom:2em;
 `;
 
 const Conteudo = styled.div`
     display:flex;
 `;
 
-const Botao = styled.input`
+const Botao = styled.button`
     background-color: #002555;
     border: none;
     border-radius: 5px;
-    height: 2em;
+    height: 3em;
     color: white;
     font-weight: 800;
+    &:active{
+        transform: scale(0.94);
+        transition: transform 0.2s ease;
+    }
+    &:hover{
+        background-color: #061c38;
+    }
 `;
 
 export { Titulo, Informacoes, Subtitulo, Form, Img, BoxFormulario, Conteudo, Botao };

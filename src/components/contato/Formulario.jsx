@@ -8,6 +8,7 @@ const Formulario = ( props ) => {
     }
 
     return (
+
         <div>
             <Informacoes>
                 <Titulo>
@@ -26,12 +27,12 @@ const Formulario = ( props ) => {
                         placeholder="E-mail"  
                         />
                         <Form
-                        type="textArea" 
-                        placeholder="Sua mensagem"  
+                        type="textarea" 
+                        placeholder="Sua mensagem"
                         />
-                        <Botao type="submit"
-                        value={"Enviar"}
-                        onSubmit={enviado}/>
+                        <Botao onClick={enviado}>
+                        Enviar
+                        </Botao>
                     </BoxFormulario>
                 </Informacoes>
         </div>
