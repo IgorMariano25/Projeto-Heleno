@@ -19,7 +19,7 @@ const Logo = styled.img`
 `;
 
 const DivRede = styled.div`
-    margin-left: 36.1%;
+    margin-left: 62.5em;
 `;
 
 const ListaRede = styled.ul`
