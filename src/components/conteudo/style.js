@@ -29,7 +29,4 @@ const SubTitulo = styled.h2`
     color: #002555;
 `;
 
-const Video = styled.video`
-`;
-
-export { ConteudoPage, Titulo, P, SubTitulo, Video}
+export { ConteudoPage, Titulo, P, SubTitulo }
