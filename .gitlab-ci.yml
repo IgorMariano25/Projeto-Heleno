@@ -10,7 +10,7 @@ build:
     PUBLIC_URL: https://projeto-multidisciplinar.gitlab.io/heleno-app
   script:
     - npm install      
-    - npm build
+    - npm run build
   artifacts:
     paths:
       - build/  
