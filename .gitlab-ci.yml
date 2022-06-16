@@ -9,8 +9,8 @@ build:
     # Replace this with your site URL
     PUBLIC_URL: https://projeto-multidisciplinar.gitlab.io/heleno-app
   script:
-    - yarn install      
-    - yarn build
+    - npm install      
+    - npm build
   artifacts:
     paths:
       - build/  
