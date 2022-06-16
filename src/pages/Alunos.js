@@ -4,6 +4,7 @@ import PessoaCard from "../components/Card/PessoaCard";
 import arquivo from "../dados.json";
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useSearchParams } from "react-router-dom";
+import "../App.css";
 
 const Pessoas = () => {
     const [dados, setDados] = useState(arquivo);
@@ -42,8 +43,9 @@ const Pessoas = () => {
                 <input 
                     type="text"
                     ref={entrada}
+                    className="Filtro"
                     />
-                <button type='submit'>Pesquisar</button>
+                <button type='submit' className="BotaoFiltro">Pesquisar</button>
             </form>
             <div className="ContainerCard">
                 {

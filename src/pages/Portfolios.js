@@ -44,8 +44,9 @@ const Projetos = () => {
                 <input 
                     type="text"
                     ref={entrada}
+                    className="Filtro"
                     />
-                <button type='submit'>Pesquisar</button>
+                <button type='submit' className="BotaoFiltro">Pesquisar</button>
             </form>
             <div className="ContainerCard">
                 {
