@@ -10,7 +10,6 @@ const Pessoas = () => {
     const [parametros, setParametros] = useSearchParams();
     const entrada = useRef();
 
-
     const filtra = useCallback((dados) => {
         const parametro = parametros.get("busca");
 
@@ -60,7 +59,7 @@ const Pessoas = () => {
             </div>
             <RodaPe/>
         </div>
-    )
+    );
 }
 
 export default Pessoas;
