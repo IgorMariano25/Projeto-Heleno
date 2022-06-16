@@ -27,10 +27,12 @@ body {
     font-weight: 800;
     width: 10em;
     }
+
 .BotaoFiltro:active{
     transform: scale(0.94);
     transition: transform 0.2s ease;
 }
+
 .BotaoFiltro:hover{
     background-color: #061c38;
 }
@@ -38,4 +40,17 @@ body {
 .IntroducaoHomePage{
     display: flex;
     margin-left: 10em;
+}
+
+.VideoIbmecHome{
+    padding-top: 30.150px;
+    padding-right: 10em;
+}
+
+.ConteudoTextosHome{
+    display: block;
+}
+
+.SubTituloProjetosHome{
+    text-align: center;
 }
