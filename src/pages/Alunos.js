@@ -44,6 +44,7 @@ const Pessoas = () => {
                     type="text"
                     ref={entrada}
                     className="Filtro"
+                    placeholder="Buscar"
                     />
                 <button type='submit' className="BotaoFiltro">Pesquisar</button>
             </form>
