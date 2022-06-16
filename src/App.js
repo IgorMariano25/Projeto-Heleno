@@ -2,7 +2,8 @@ import './App.css';
 import Topo from '../src/components/topo/topo';
 import RodaPe from './components/footer/footer';
 import { ConteudoPage, Titulo, P, SubTitulo} from './components/conteudo/style.js'
-import ProjetoCard from './components/CardProjetos/ProjetoCard.jsx';
+import ProjetoCard from './components/CardProjetos/ProjetoCard';
+import projetos from '../src/projetos.json';
 
 function App() {
   return (
@@ -37,10 +38,22 @@ function App() {
                 </div>
 
               <div className="ProjetoAlunosHome">
-                <ProjetoCard/>
+                <div className="ContainerCard">
+                  {
+                          projetos.map( (p, ind) => (
+                              <ProjetoCard
+                                      key = { ind }
+                                      fotoProjeto = {p.fotoProjeto}
+                                      titulo = {p.titulo}
+                                      tecnologias = {p.tecnologias}
+                                      participantes = {p.participantes}
+                              />
+                          ))
+                      }
+                </div>
               </div>
-              <RodaPe/>
             </ConteudoPage>
+            <RodaPe/>
       </div>
   );
 }
