@@ -44,17 +44,20 @@ body {
 
 .VideoIbmecHome{
     padding-top: 30.150px;
-    padding-right: 10em;
 }
 
 .ConteudoTextosHome{
     display: block;
+    margin-left: 5em;
 }
 
 .SubTituloProjetosHome{
     text-align: center;
+    padding-top: 15px;
 }
 
 .ProjetoAlunosHome{
     margin-left: 10em;
+    padding-top: 10px;
+    padding-bottom: 120px;
 }
