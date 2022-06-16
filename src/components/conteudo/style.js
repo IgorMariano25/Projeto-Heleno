@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+const ConteudoPage = styled.div`
+    min-height: 80vw;
+    min-width: 100vh;
+`;
+
 const Titulo = styled.h1`
     font-family: barlow;
     font-size: 45px;
@@ -32,4 +37,4 @@ const SubTitulo = styled.h2`
 const Video = styled.video`
 `;
 
-export { Titulo, P, SubTitulo, Video}
+export { ConteudoPage, Titulo, P, SubTitulo, Video}
