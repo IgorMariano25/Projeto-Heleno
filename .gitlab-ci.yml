@@ -5,9 +5,9 @@ stages:
 build:
   image: node:latest    
   stage: build
-  #variables: 
+  variables: 
     # Replace this with your site URL
-    # PUBLIC_URL: http://projeto-multidisciplinar.gitlab.io/heleno-app/  
+    PUBLIC_URL: http://projeto-multidisciplinar.gitlab.io/heleno-app/  
   script:
     - yarn install      
     - yarn build

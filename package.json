@@ -2,7 +2,6 @@
   "name": "heleno",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://projeto-multidisciplinar.gitlab.io/heleno-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
