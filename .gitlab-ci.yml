@@ -7,7 +7,7 @@ build:
   stage: build
   variables: 
     # Replace this with your site URL
-    PUBLIC_URL: https://projeto-multidisciplinar.gitlab.io/heleno-app
+    PUBLIC_URL: http://projeto-multidisciplinar.gitlab.io/heleno-app
   script:
     - npm install      
     - npm run build

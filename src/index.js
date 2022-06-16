@@ -11,7 +11,7 @@ import Contato from './pages/Contato';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={window.location.pathname || ''}>
       <Routes>
         <Route path='/' element={<App />} />
         <Route path='portfolios' element={<Portfolios />} />
