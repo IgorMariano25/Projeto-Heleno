@@ -1,7 +1,7 @@
 [
     {
         "titulo": "Projeto Heleno",
-        "fotoProjeto": "ProjReact.jpg",
+        "fotoProjeto": "React.jpg",
         "descricaoProjeto" : "...",
         "tecnologias": "React",
         "participantes": "Igor, Clarissa, Guilherme, Felipe",
@@ -13,12 +13,12 @@
 
     {
         "titulo": "Banco de dados Python",
-        "fotoProjeto": "Python.jpg",
+        "fotoProjeto": "Python(2).jpg",
         "descricaoProjeto" : "...",
         "tecnologias": "Python",
         "participantes": "Igor, Clarissa, Guilherme, Felipe",
         "estado": "em desenvolvimento",
         "cursoRelacionado": "Análise e Desenvolvimento de Sistemas",
-        "papeis": "Desenvolvedores: Clarissa, Igor, Guilherme, Felipe"  
+        "papeis": "Desenvolvedores: Clarissa, Igor, Guilherme, Felipe"
     }
 ]
