@@ -27,10 +27,15 @@ body {
     font-weight: 800;
     width: 10em;
     }
-    .BotaoFiltro:active{
-        transform: scale(0.94);
-        transition: transform 0.2s ease;
-    }
-    .BotaoFiltro:hover{
-        background-color: #061c38;
-    }
+.BotaoFiltro:active{
+    transform: scale(0.94);
+    transition: transform 0.2s ease;
+}
+.BotaoFiltro:hover{
+    background-color: #061c38;
+}
+
+.IntroducaoHomePage{
+    display: flex;
+    margin-left: 10em;
+}
