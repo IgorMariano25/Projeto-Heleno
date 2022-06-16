@@ -34,14 +34,18 @@ const Textos = styled.div`
      border-bottom-right-radius: 5%;
 `;
 
-const Nome = styled.p`
+const Título= styled.p`
     text-transform: uppercase;
     font-weight: 600;
     font-style: Italic;
 `;
 
-const Curso = styled.p`
+const Tecnologias = styled.p`
      font-weight: 400;
 `;
 
-export {Card, Img, Textos, Nome, Curso, }
+const Participantes = styled.p`
+     font-weight: 400;
+`;
+
+export {Card, Img, Textos, Título, Tecnologias, Participantes}
