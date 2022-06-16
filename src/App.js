@@ -17,8 +17,6 @@ function App() {
                   It has survived not only five centuries.
                 </P>
                 <SubTitulo>Conheça alguns projetos dos alunos</SubTitulo>
-                <SubTitulo>Conheça alguns projetos dos alunos</SubTitulo>
-                <SubTitulo>Conheça alguns projetos dos alunos</SubTitulo>
               <RodaPe/>
             </ConteudoPage>
       </div>
