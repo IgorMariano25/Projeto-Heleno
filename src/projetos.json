@@ -1,7 +1,7 @@
 [
     {
         "titulo": "Projeto Heleno",
-        "fotoProjeto": "React.jpg",
+        "fotoProjeto": "React.png",
         "descricaoProjeto" : "...",
         "tecnologias": "React",
         "participantes": "Igor, Clarissa, Guilherme, Felipe",
@@ -16,6 +16,16 @@
         "fotoProjeto": "Python(2).jpg",
         "descricaoProjeto" : "...",
         "tecnologias": "Python",
+        "participantes": "Igor, Clarissa, Guilherme, Felipe",
+        "estado": "em desenvolvimento",
+        "cursoRelacionado": "Análise e Desenvolvimento de Sistemas",
+        "papeis": "Desenvolvedores: Clarissa, Igor, Guilherme, Felipe"
+    }
+    ,    {
+        "titulo": "Framework Django",
+        "fotoProjeto": "Django.png",
+        "descricaoProjeto" : "...",
+        "tecnologias": "Python, Django",
         "participantes": "Igor, Clarissa, Guilherme, Felipe",
         "estado": "em desenvolvimento",
         "cursoRelacionado": "Análise e Desenvolvimento de Sistemas",
