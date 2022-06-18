@@ -23,12 +23,11 @@ const Pessoas = () => {
             );
             return filtrados;
         }
-       
+
     }, [parametros]);
 
-
     useEffect(() => {
-        const dadosFiltrados = filtra(arquivo);     
+        const dadosFiltrados = filtra(arquivo);
         setDados(dadosFiltrados);
 
     }, [filtra]);
@@ -36,11 +35,12 @@ const Pessoas = () => {
     return (
         <div>
             <Topo/>
+            <div className="Pesquisa">
             <form onSubmit={(e) => {
                 e.preventDefault();
                 setParametros({"busca": `${entrada.current.value}`})
                 }}>
-                <input 
+                <input
                     type="text"
                     ref={entrada}
                     className="Filtro"
@@ -48,7 +48,9 @@ const Pessoas = () => {
                     />
                 <button type='submit' className="BotaoFiltro">Pesquisar</button>
             </form>
-            <div className="ContainerCard">
+            </div>
+
+            <div className="ContainerCardAlunos">
                 {
                         dados.map( (p, ind) => (
                             <PessoaCard
