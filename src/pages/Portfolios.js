@@ -24,12 +24,12 @@ const Projetos = () => {
             );
             return filtrados;
         }
-       
+
     }, [parametros]);
 
 
     useEffect(() => {
-        const dadosFiltrados = filtra(arquivo);     
+        const dadosFiltrados = filtra(arquivo);
         setDados(dadosFiltrados);
 
     }, [filtra]);
@@ -37,19 +37,22 @@ const Projetos = () => {
     return (
         <div>
             <Topo/>
-            <form onSubmit={(e) => {
-                e.preventDefault();
-                setParametros({"busca": `${entrada.current.value}`})
-                }}>
-                <input 
-                    type="text"
-                    ref={entrada}
-                    className="Filtro"
-                    placeholder="Buscar"
-                    />
-                <button type='submit' className="BotaoFiltro">Pesquisar</button>
-            </form>
-            <div className="ContainerCard">
+            <div className="Pesquisa">
+                <form onSubmit={(e) => {
+                    e.preventDefault();
+                    setParametros({"busca": `${entrada.current.value}`})
+                    }}>
+
+                    <input
+                        type="text"
+                        ref={entrada}
+                        className="Filtro"
+                        placeholder="Buscar"
+                        />
+                    <button type='submit' className="BotaoFiltro">Pesquisar</button>
+                </form>
+            </div>
+            <div className="ContainerCardProjetos">
                 {
                         dados.map( (p, ind) => (
                             <ProjetoCard
