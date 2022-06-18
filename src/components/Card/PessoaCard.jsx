@@ -1,10 +1,9 @@
 import { Card, Textos, Nome , Img, Curso} from "./Style";
 
-
 const PessoaCard = ( props ) => {
     return (
         <Card>
-            <Img 
+            <Img
             src= { `imagens/${props.imagem}` }
             alt={props.nome}
             />
