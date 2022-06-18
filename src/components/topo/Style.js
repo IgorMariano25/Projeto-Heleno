@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 const Card = styled.div`
     top: 0px;
-    left: 36px;
+    left: 2.083em;
     width: 100%;
-    height: 75px;
+    height: 4.6875em;
     background-color: #002555;
     display:flex;
     a {
