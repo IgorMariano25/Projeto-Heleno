@@ -56,8 +56,14 @@ body {
     padding-top: 15px;
 }
 
+.ContainerCardProjetos {
+    margin-right: 10em;
+}
+
+
 .ProjetoAlunosHome{
     margin-left: 10em;
     padding-top: 10px;
     padding-bottom: 120px;
 }
+
