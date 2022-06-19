@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Img = styled.img`
     height: 34em;
     margin-top: 2em;
-    margin-left: 20em;
+    margin-left: 20vw;
     margin-right: 10%;
     margin-bottom: 0.8em;
 `;
@@ -43,7 +43,7 @@ const Form = styled.input`
     border-right: none;
     border-left: none;
     border-bottom: solid 2px #000000;
-    width: 30em;
+    width: 30vw;
     margin-bottom:2em;
 `;
 
