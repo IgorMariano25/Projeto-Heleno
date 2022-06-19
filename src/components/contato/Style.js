@@ -12,6 +12,7 @@ const Titulo = styled.h1`
     font-family: 'Barlow';
     font-size: 25px;
     font-weight: 800;
+    margin-right: 2vw;
 `;
 
 const Subtitulo = styled.span`
@@ -43,7 +44,7 @@ const Form = styled.input`
     border-right: none;
     border-left: none;
     border-bottom: solid 2px #000000;
-    width: 30vw;
+    width: 35vw;
     margin-bottom:2em;
 `;
 

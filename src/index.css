@@ -55,10 +55,19 @@ input[type=text].section-readonly-input {
 @media screen and (max-width: 600px) {
   .ConteudoContato > img{
     object-fit: cover;
-    height: 15vh;
-    width: 40vw;
+    height: 20vh;
+    width: 70vw;
+    margin-left: 12vw;
   }
   .ConteudoContato{
-    flex-flow: row;
+    display: block;
   }
+
+  .ConteudoContato > div {
+    margin-left: 15vw;
+  }
+  .ConteudoContato input {
+    width: 60vw;
+  }
+
 }
