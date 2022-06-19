@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Card = styled.div`
-    width: 20em;
+    width: 15em;
     border-width: 1px;
     background-color: #002555;
     display: flex;

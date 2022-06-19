@@ -10,11 +10,13 @@ const Pessoas = () => {
         <div>
             <Topo/>
             <Conteudo>
-                <Img
-                    src={ `imagens/imagemContato.jpg` }
-                    alt={'imagem de computador contendo código'}
-                />
-                <Formulario/>
+                <div className="ConteudoContato">
+                    <Img
+                        src={ `imagens/imagemContato.jpg` }
+                        alt={'imagem de computador contendo código'}
+                    />
+                    <Formulario/>
+                </div>
             </Conteudo>
             <RodaPe/>
         </div>
