@@ -27,6 +27,7 @@ const SubTitulo = styled.h2`
     font-family: barlow;
     font-size: 35px;
     color: #002555;
+    text-align: center;
 `;
 
 export { ConteudoPage, Titulo, P, SubTitulo }

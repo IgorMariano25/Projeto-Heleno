@@ -18,23 +18,23 @@ const Formulario = ( props ) => {
                     </Subtitulo>
                     </h1>
                 </Titulo>
-                    <BoxFormulario>
-                        <Form type="text"
-                        placeholder="Nome"
-                        />
-                        <Form
-                        type="text" 
-                        placeholder="E-mail"  
-                        />
-                        <Form
-                        type="textarea" 
-                        placeholder="Sua mensagem"
-                        />
-                        <Botao onClick={enviado}>
-                        Enviar
-                        </Botao>
-                    </BoxFormulario>
-                </Informacoes>
+                <BoxFormulario>
+                    <Form type="text"
+                    placeholder="Nome"
+                    />
+                    <Form
+                    type="text" 
+                    placeholder="E-mail"  
+                    />
+                    <Form
+                    type="textarea" 
+                    placeholder="Sua mensagem"
+                    />
+                    <Botao onClick={enviado}>
+                    Enviar
+                    </Botao>
+                </BoxFormulario>
+            </Informacoes>
         </div>
     );
 }

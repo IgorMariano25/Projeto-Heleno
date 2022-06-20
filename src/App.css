@@ -43,6 +43,7 @@ body {
 }
 
 .VideoIbmecHome{
+    margin-left: 5em;
     padding-top: 30.150px;
 }
 
@@ -56,8 +57,14 @@ body {
     padding-top: 15px;
 }
 
+.ProjetoAlunosHome {
+    margin-right: 10em;
+}
+
+
 .ProjetoAlunosHome{
     margin-left: 10em;
     padding-top: 10px;
     padding-bottom: 120px;
 }
+
