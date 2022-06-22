@@ -3,12 +3,12 @@ import styled from "styled-components";
 const ConteudoPage = styled.div`
     min-height: 50vh;
     min-width: 100vw;
+    width: 40vw;
 `;
 
 const Titulo = styled.h1`
     font-family: barlow;
     font-size: 45px;
-    width: 434px;
     color: #002555;
     text-align: left;
 `;
@@ -18,7 +18,6 @@ const P = styled.p`
     font-style: italic;
     font-size: 20px;
     font-weight: 100px;
-    width: 434px;
     color: #002555;
     text-align: left;
 `;
