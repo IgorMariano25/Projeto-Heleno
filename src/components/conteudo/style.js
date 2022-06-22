@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const ConteudoPage = styled.div`
-    min-height: 50vw;
-    min-width: 100vh;
+    min-height: 50vh;
+    min-width: 100vw;
 `;
 
 const Titulo = styled.h1`
