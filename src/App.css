@@ -48,6 +48,7 @@ body {
     margin-left: 3em;
     padding-top: 30.150px;
 }
+
 .VideoIbmecHome iframe{
     width: 100%;
 }
@@ -79,6 +80,7 @@ body {
     }
     .VideoIbmecHome iframe{
         width: 40vw;
-        height: auto;
+        height:55vh;
     }   
 }
+
