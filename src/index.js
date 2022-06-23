@@ -8,6 +8,8 @@ import Portfolios from './pages/Portfolios';
 import Alunos from './pages/Alunos';
 import Contato from './pages/Contato';
 
+//para rodar o pipeline
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
