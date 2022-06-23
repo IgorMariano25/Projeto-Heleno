@@ -5,7 +5,7 @@ const Topo = ( props ) => {
     return(
         <nav>
         <Card>
-            <a href="/"><Img
+            <a href={ window.location.href }><Img
                     src={ `imagens/logoIBMECFundoAzul.png` }
                     alt={'logo do IBMEC'}
             /></a>
