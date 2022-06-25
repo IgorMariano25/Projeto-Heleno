@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+.Pesquisa{
+    text-align: center;
+}
+
 .Filtro {
     margin-left: 10vw;
     margin-top: 4vh;
@@ -26,7 +30,7 @@ body {
     color: white;
     font-weight: 800;
     width: 10em;
-    }
+}
 
 .BotaoFiltro:active{
     transform: scale(0.94);
@@ -41,12 +45,13 @@ body {
     display: flex;
     flex-flow: column;
     margin-left: 5em;
-    
+
 }
 
 .VideoIbmecHome{
     margin-left: 3em;
     padding-top: 30.150px;
+    padding-top: 1.884375em;
 }
 
 .VideoIbmecHome iframe{
@@ -60,18 +65,19 @@ body {
 
 .SubTituloProjetosHome{
     text-align: center;
-    padding-top: 15px;
+    padding-top:  0.9375em;
 }
 
-.ProjetoAlunosHome {
-    margin-right: 10em;
-}
-
-
-.ProjetoAlunosHome{
+.AlinhamentoAlunosProjetos{
     margin-left: 10em;
-    padding-top: 10px;
-    padding-bottom: 120px;
+}
+
+.SubTituloAlunosHome{
+    text-align: center;
+}
+
+.PerfilAlunoDetalhado{
+
 }
 
 @media screen and (min-width: 1024px){
@@ -81,6 +87,5 @@ body {
     .VideoIbmecHome iframe{
         width: 40vw;
         height:55vh;
-    }   
+    }
 }
-
