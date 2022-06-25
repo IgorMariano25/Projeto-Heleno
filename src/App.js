@@ -29,7 +29,7 @@ function App() {
                 E isso só foi possível graças ao empenho deses alunos e também pela orientação dos professores de excelência que a nossa instituição provê.
                 <br></br>
                 <br></br>
-                No Ibmec, nós damos voz para os alunos e auxiliamos eles com toda e qualquer dificuldade, além de estimular a criatividade e laboração de projetos e startups nós do Ibmec visamos criar, não somente alunos, mas líderes para o futuro.
+                No Ibmec, nós damos voz para os alunos e os auxiliamos com toda e qualquer dificuldade, além de estimular a criatividade e a elaboração de projetos e startups. Nós do Ibmec visamos criar, não somente alunos, mas líderes para o futuro.
 
 
 
