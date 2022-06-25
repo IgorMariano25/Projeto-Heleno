@@ -15,7 +15,6 @@ function App() {
           <div className="IntroducaoHomePage">
             <div className="VideoIbmecHome">
               <iframe
-                  width="975" height="610"
                   src="https://www.youtube.com/embed/L5hCvZk5MZE"
                   title="YouTube video player"
                   frameborder="0"

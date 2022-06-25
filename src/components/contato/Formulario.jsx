@@ -4,7 +4,7 @@ const Formulario = ( props ) => {
 
     const enviado = (event) => {
         event.preventDefault();
-        alert(`Enviado!`);
+        alert(`Funcionalidade ainda não implementada :(!`);
     }
 
     return (

@@ -39,12 +39,18 @@ body {
 
 .IntroducaoHomePage{
     display: flex;
-    margin-left: 10em;
+    flex-flow: column;
+    margin-left: 5em;
+    
 }
 
 .VideoIbmecHome{
-    margin-left: 5em;
+    margin-left: 3em;
     padding-top: 30.150px;
+}
+
+.VideoIbmecHome iframe{
+    width: 100%;
 }
 
 .ConteudoTextosHome{
@@ -66,5 +72,15 @@ body {
     margin-left: 10em;
     padding-top: 10px;
     padding-bottom: 120px;
+}
+
+@media screen and (min-width: 1024px){
+    .IntroducaoHomePage{
+        flex-flow: row;
+    }
+    .VideoIbmecHome iframe{
+        width: 40vw;
+        height:55vh;
+    }   
 }
 
