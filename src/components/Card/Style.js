@@ -15,6 +15,10 @@ const Card = styled.div`
     }
 `;
 
+const CardDetalhado = styled.div`
+
+`;
+
 const Img = styled.img`
       width: 10em;
       border-radius: 50%;
@@ -22,7 +26,7 @@ const Img = styled.img`
 `;
 
 const Textos = styled.div`
-     font-family: 'Barlow';
+     font-family: "Barlow";
      background-color: #F5AC00;
      flex-grow: 1;
      padding: 1em;
@@ -44,4 +48,19 @@ const Curso = styled.p`
      font-weight: 400;
 `;
 
-export {Card, Img, Textos, Nome, Curso, }
+const Bio = styled.p`
+    font-weight: 400;
+    font-style: Italic;
+`;
+
+const Ingresso = styled.p`
+    font-weight: 400;
+    font-style: Italic;
+`;
+
+const PrevFormatura = styled.p`
+    font-weight: 400;
+    font-style: Italic;
+`;
+
+export { Card, CardDetalhado, Img, Textos, Nome, Curso, Bio, Ingresso, PrevFormatura};
