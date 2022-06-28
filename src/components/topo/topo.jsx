@@ -13,7 +13,7 @@ const Topo = ( props ) => {
                 <Link to="/Portfolios">Portfólios</Link>
                 <Link to="/Alunos">Alunos</Link>
                 <Link to="/Contato">Contato</Link>
-                <a href="https://gitlab.com/projeto-multidisciplinar/heleno-app" target="_blank">Documentação</a>
+                <Link to="/Sobre">Sobre</Link>
             </Textos>
         </Card>
         </nav>

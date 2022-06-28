@@ -71,3 +71,17 @@ input[type=text].section-readonly-input {
   }
 
 }
+
+.TituloSobre {
+  margin: 2em;
+  text-align: center;
+  font-family: 'Barlow';
+}
+
+#Documentacao {
+  text-decoration: none;
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+  font-family: 'Barlow';
+}

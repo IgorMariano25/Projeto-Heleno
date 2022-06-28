@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Portfolios from './pages/Portfolios';
 import Alunos from './pages/Alunos';
 import Contato from './pages/Contato';
+import Sobre from './pages/Sobre';
 
 //para rodar o pipeline
 
@@ -19,6 +20,7 @@ root.render(
         <Route path='portfolios' element={<Portfolios />} />
         <Route path='alunos' element={<Alunos />} />
         <Route path='contato' element={<Contato />} />
+        <Route path='Sobre' element={<Sobre />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
