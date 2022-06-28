@@ -25,6 +25,7 @@ const DivRede = styled.div`
 const ListaRede = styled.ul`
     display: flex;
     list-style-type: none;
+    margin-right: 10em;
 `;
 
 const IconeRedeSocial = styled.img`
