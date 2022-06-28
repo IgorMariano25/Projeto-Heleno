@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Projeto-Heleno
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Descrição:
 
-## Available Scripts
+***O projeto visa facilitar a apresentação dos projetos feitos pelos alunos da instituição Ibmec nos cursos de tecnologia, tendo como base a apresentação de portifólios dos alunos bem como os resultados alcançados por eles.***
 
-In the project directory, you can run:
+# Status do projeto: Em desenvolvimento
 
-### `npm start`
+* ***Layout***
+* ***Requisitos do projeto***
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Técnicas de lavantamento de requisito:
 
-### `npm test`
+* ***Entrevista***
+* ***Prototipação***
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Listagem de requisitos:
 
-### `npm run build`
+## Funcionais:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* ***Permitir o cadastro de novos usuários;***
+* ***Permitir o cadastro de novos projetos;***
+* ***Permitir o cadastro de novas tecnologias;***
+* ***Possibilitar que o usuário realize buscas por pessoas;***
+* ***Possibilitar que o usuário realize buscas por projetos;***
+* ***Possibilitar que o usuário filtre as informações de busca por pessoas;***
+* ***Possibilitar que o usuário filtre as informações de busca por projetos;***
+* ***Exibir as informações das pessoas;***
+* ***Exibir as informações dos projetos;***
+* ***Exibir quais tecnologia foram usadas no projeto;***
+* ***Permitir que o usuário adicione arquivos ao projeto;***
+* ***Permitir a edição dos projetos;***
+* ***Permitir a edição dos perfis dos alunos;***
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Não Funcionias:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* ***Possibilitar que o usuário adicione uma foto ao projeto, com até X (Kb, Mb ou Gb);***
+* ***Estar disponível para o usuário 24/7;***
+* ***Criptografar a senha do usuário;***
+* ***Deve rodar em vários tipos de navegadores;***
+* ***Estar hospedado no GitLab Pages;***
+* ***Ser elaborado com o React;***
 
-### `npm run eject`
+# Técnica de descrição de requisitos a ser utilizada:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+*  ***História de usuário com critérios de aceitação***
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Gestão de ramos (branchs) escolhida para esse projeto:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* *A gestão de ramos (branchs) escolhida para esse projeto foi: Integração Contínua* 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+O motivo pelo qual o grupo escolheu essa gestão de ramos (branchs) foi porque ela é altamente recomendada para ser utilizada em conjunto com os processos de desenvolvimento ágil de software. Além disso, a medida que o desenvolvedor efetua alterações no código ele deve disponibilizar essas alterações no repositório ***(develop)*** para que os outros desenvolvedores tenham acesso a ele, visando facilitar a compreensão do código desenvolvido. Outro fator que contribuiu para a nossa escolha se deve ao fato da rastreabilidade de erros ser facilitada, justamente porque o código será atualizado constantimente com pequenos commits.
 
-## Learn More
+[Explicação da integração contínua](https://aws.amazon.com/pt/devops/continuous-integration/#:~:text=Explica%C3%A7%C3%A3o%20da%20integra%C3%A7%C3%A3o%20cont%C3%ADnua&text=Os%20principais%20objetivos%20da%20integra%C3%A7%C3%A3o,lan%C3%A7ar%20novas%20atualiza%C3%A7%C3%B5es%20de%20software.)
+[Dicas para usar os repositórios com integração contínua ](https://www.atlassian.com/br/continuous-delivery/continuous-integration/ci-friendly-git-repos)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Definição da Branchs:
 
-### Code Splitting
+***Teremos:***
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* ***(1) MAIN***
+* ***(2) DEVELOP***
+* ***(3) IMAGENS/LAYOUT***
 
-### Analyzing the Bundle Size
+### Decidir uma das opções abaixo 
+* [Fluxo de trabalho de um branch de recurso do Git Flow](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow) 
+* [Desenvolvimento baseado em tronco](https://www.atlassian.com/br/continuous-delivery/continuous-integration/trunk-based-development)
+* [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
+* [Git Flow: o que é e como gerenciar branches? Exemplos!](https://blog.betrybe.com/git/git-flow/)
+* [Integração contínua](https://www.atlassian.com/br/continuous-delivery/continuous-integration)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+***A equipes escolheu  Integração Contínua***
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+cd existing_repo
+git remote add origin https://gitlab.com/projeto-multidisciplinar/projeto-eleno.git
+git branch -M main
+git push -uf origin main
+```
