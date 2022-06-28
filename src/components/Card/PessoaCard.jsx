@@ -2,7 +2,7 @@ import { Card, Textos, Nome , Img, Curso} from "./Style";
 
 const PessoaCard = ( props ) => {
     return (
-        <Card>
+        <Card href="https://www.google.com" target="u_blank">
             <Img
             src= { `imagens/${props.imagem}` }
             alt={props.nome}

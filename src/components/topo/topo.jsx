@@ -1,11 +1,13 @@
 import { Card, Img, Textos } from "./Style.js";
 import {Link} from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 const Topo = ( props ) => {
+    const navigate = useNavigate();    
     return(
         <nav>
         <Card>
-            <a href={ window.location.href }><Img
+            <a onClick={()=>navigate("/")}><Img
                     src={ `imagens/logoIBMECFundoAzul.png` }
                     alt={'logo do IBMEC'}
             /></a>
