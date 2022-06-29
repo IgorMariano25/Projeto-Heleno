@@ -9,10 +9,11 @@ const ProjetoDetalhado = () => {
     const []
 
     <div>
+        </Topo>
         <div className="ContainerCardProjetos">
             {
                     dados.map( (p, ind) => (
-                        <ProjetoCard
+                        <ProjetoCardDetalhado
                                 key = { ind }
                                 fotoProjeto = {p.fotoProjeto}
                                 titulo = {p.titulo}
