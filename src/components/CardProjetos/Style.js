@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Card = styled.div`
+const Card = styled.a`
     width: 15em;
     border-width: 1px;
     background-color: #002555;
@@ -8,6 +8,8 @@ const Card = styled.div`
     border-radius: 5%;
     flex-flow: column;
     padding: .5em;
+    text-decoration: none;
+    color:black;
 
     &:hover{
         transform: scale(1.05);

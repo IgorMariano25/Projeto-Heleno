@@ -1,8 +1,10 @@
 import { Card, Textos, Img, Título, Tecnologias, Participantes } from "./Style";
+import { useNavigate } from "react-router-dom";
 
 const ProjetoCard = ( props ) => {
+    const navigate = useNavigate();
     return (
-        <Card>
+        <Card onClick={()=>navigate("InfoPortifolio")}>
             <Img 
             src= { `imagens_projetos/${props.fotoProjeto}` }
             alt={props.título}

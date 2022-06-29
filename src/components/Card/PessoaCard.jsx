@@ -1,8 +1,10 @@
 import { Card, Textos, Nome , Img, Curso} from "./Style";
+import { useNavigate } from "react-router-dom";
 
 const PessoaCard = ( props ) => {
+    const navigate = useNavigate();
     return (
-        <Card href="https://www.google.com" target="u_blank">
+        <Card onClick={()=>navigate("InfoAluno")}>
             <Img
             src= { `imagens/${props.imagem}` }
             alt={props.nome}
