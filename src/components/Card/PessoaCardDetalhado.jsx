@@ -4,7 +4,8 @@ const PessoaCardDetalhado = ( props ) => {
     return (
         <CardDetalhado>
             <Img
-            src= { `imagens/${props.imagem}` }
+            src= { `${process.env.PUBLIC_URL}/imagens/${props.imagem}` }
+            //src = {props.nome}
             alt= {props.nome}
             />
             <Textos>

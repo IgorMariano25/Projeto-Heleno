@@ -1,22 +1,28 @@
 import Topo from "../components/topo/topo";
 import RodaPe from "../components/footer/footer";
-import PessoaCardDetalhado from "../components/Card/PessoaCard";
+import PessoaCardDetalhado from "../components/Card/PessoaCardDetalhado";
 import arquivo from "../dados.json";
+import { useParams } from "react-router-dom";
 
 import "../App.css";
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 
 const Perfil = () => {
-  const [dados] = useState(arquivo);
+  const [dados, setDados] = useState(arquivo);
+  const { id } = useParams();
 
+  const filtrados = dados.filter(
+    (e) => e.ID === parseInt(id)
+  );
+  
   return (
     <div>
       <Topo/>  
         <div className="PerfilAlunoDetalhado">
-          {dados.map((p, ind) => (
+          {filtrados.map((p, ind) => (
             <PessoaCardDetalhado
                 key= { ind }
-                imagem= {p.imagem}
+                imagem = {p.imagem}
                 nome= {p.nome}
                 curso= {p.curso}
                 matricula= {p.matricula}

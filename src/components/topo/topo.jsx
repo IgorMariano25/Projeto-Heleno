@@ -8,7 +8,7 @@ const Topo = ( props ) => {
         <nav>
         <Card>
             <Img
-                    src={ `imagens/logoIBMECFundoAzul.png` }
+                    src={ `${process.env.PUBLIC_URL}/imagens/logoIBMECFundoAzul.png` }
                     alt={'logo do IBMEC'}
                     onClick={()=>navigate("/")}
             />

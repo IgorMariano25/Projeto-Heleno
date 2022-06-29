@@ -10,6 +10,8 @@ import Contato from "./pages/Contato";
 import Sobre from "./pages/Sobre";
 import PessoaCard from "./components/Card/PessoaCard";
 import ProjetoCard from "./components/CardProjetos/ProjetoCard";
+import InfoAluno from "./pages/InfoAluno";
+
 //para rodar o pipeline de novo
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -20,9 +22,10 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="portfolios" element={<Portfolios />} />
         <Route path="alunos" element={<Alunos />} />
+        <Route path="alunos/:id" element={<InfoAluno />} />
+
         <Route path="contato" element={<Contato />} />
         <Route path="Sobre" element={<Sobre />} />
-        <Route path="InfoAluno" element={<PessoaCard />} />
         <Route path="InfoPortifolio" element={<ProjetoCard />} />
       </Routes>
     </BrowserRouter>

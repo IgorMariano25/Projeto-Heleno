@@ -58,6 +58,7 @@ const Pessoas = () => {
                                     imagem = {p.imagem}
                                     nome = {p.nome}
                                     curso = {p.curso}
+                                    ID = {p.ID}
                             />
                         ))
                     }
