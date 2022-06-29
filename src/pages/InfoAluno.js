@@ -7,28 +7,28 @@ import "../App.css";
 import { useState } from "react";
 
 const Perfil = () => {
-  const [Aluno, setAluno] = useState(arquivo);
+  const [dados] = useState(arquivo);
 
   return (
     <div>
-      <Topo />
-
-      <div className="PerfilAlunoDetalhado">
-        {Aluno.map((p, ind) => (
-          <PessoaCardDetalhado
-            key={ind}
-            imagem={p.imagem}
-            nome={p.nome}
-            curso={p.curso}
-            matricula={p.matricula}
-            ingresso={p.ingresso}
-            formacao={p.formacao}
-            bio={p.bio}
-            projetos={p.projetos}
-          />
-        ))}
+      <Topo/>  
+        <div className="PerfilAlunoDetalhado">
+          {dados.map((p, ind) => (
+            <PessoaCardDetalhado
+                key= { ind }
+                imagem= {p.imagem}
+                nome= {p.nome}
+                curso= {p.curso}
+                matricula= {p.matricula}
+                ingresso= {p.ingresso}
+                formacao= {p.formacao}
+                bio= {p.bio}
+                Projetos= {p.Projetos}
+            />
+          ))
+          }       
       </div>
-      <RodaPe />
+      <RodaPe/>
     </div>
   );
 };

@@ -3,17 +3,17 @@ import { useNavigate } from "react-router-dom";
 
 const PessoaCard = ( props ) => {
     const navigate = useNavigate();
-    return (
-        <Card onClick={()=>navigate("InfoAluno")}>
-            <Img
-            src= { `imagens/${props.imagem}` }
-            alt={props.nome}
-            />
+    return (  
+            <Card onClick={()=>navigate("InfoAluno")}>
+                <Img
+                src= { `imagens/${props.imagem}` }
+                alt={props.nome}
+                />
             <Textos>
                 <Nome> {props.nome} </Nome>
                 <Curso>{ props.curso} </Curso>
             </Textos>
-        </Card>
+        </Card> 
     )
 }
 

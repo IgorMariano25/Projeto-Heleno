@@ -1,6 +1,6 @@
-import { CardDetalhado, Textos, Nome, Img, Curso, Bio, Ingresso, PrevFormatura} from "./Style";
+import { CardDetalhado, Textos, Nome, Img, Curso, Bio, Ingresso, PrevFormatura, Projetos} from "./Style";
 
-const PessoaCardDetalhado = (props) => {
+const PessoaCardDetalhado = ( props ) => {
     return (
         <CardDetalhado>
             <Img
@@ -10,7 +10,7 @@ const PessoaCardDetalhado = (props) => {
             <Textos>
                 <Nome> {props.nome}</Nome>
                 <Curso> {props.curso}</Curso>
-                <Ingresso> {Ingresso} </Ingresso>
+                <Ingresso> {props.ingresso} </Ingresso>
                 <PrevFormatura> {props.formacao}</PrevFormatura>
                 <Bio> {props.bio}</Bio>
                 <Projetos> {props.projetos} </Projetos>

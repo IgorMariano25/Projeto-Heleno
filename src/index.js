@@ -8,7 +8,8 @@ import Portfolios from "./pages/Portfolios";
 import Alunos from "./pages/Alunos";
 import Contato from "./pages/Contato";
 import Sobre from "./pages/Sobre";
-
+import PessoaCard from "./components/Card/PessoaCard";
+import ProjetoCard from "./components/CardProjetos/ProjetoCard";
 //para rodar o pipeline
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -21,6 +22,8 @@ root.render(
         <Route path="alunos" element={<Alunos />} />
         <Route path="contato" element={<Contato />} />
         <Route path="Sobre" element={<Sobre />} />
+        <Route path="InfoAluno" element={<PessoaCard />} />
+        <Route path="InfoPortifolio" element={<ProjetoCard />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
