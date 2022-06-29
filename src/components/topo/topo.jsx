@@ -7,10 +7,11 @@ const Topo = ( props ) => {
     return(
         <nav>
         <Card>
-            <a onClick={()=>navigate("/")}><Img
+            <Img
                     src={ `imagens/logoIBMECFundoAzul.png` }
                     alt={'logo do IBMEC'}
-            /></a>
+                    onClick={()=>navigate("/")}
+            />
             <Textos>
                 <Link to="/Portfolios">Portfólios</Link>
                 <Link to="/Alunos">Alunos</Link>
