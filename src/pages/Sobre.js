@@ -20,7 +20,7 @@ const Sobre = () => {
                         Para saber mais sobre a documentação, clique aqui e veja o repositório Git.
                     </h3>
                         <div className="AlinhamentoBtnSobre">
-                            <a href="https://gitlab.com/projeto-multidisciplinar/heleno-app" target="_blank">
+                            <a href="https://gitlab.com/projeto-multidisciplinar/heleno-app" target="_blank" rel="noreferrer">
                                 <button id="DocumentacaoBtn">
                                     Ver documentação
                                 </button>
