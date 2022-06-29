@@ -8,7 +8,7 @@ const ConteudoPage = styled.div`
 
 const Titulo = styled.h1`
     font-family: barlow;
-    font-size: 45px;
+    font-size: 2em;
     color: #002555;
     text-align: left;
 `;
@@ -16,8 +16,8 @@ const Titulo = styled.h1`
 const P = styled.p`
     font-family: barlow;
     font-style: italic;
-    font-size: 20px;
-    font-weight: 100px;
+    font-size: 1em;
+    font-weight: 200;
     color: #002555;
     text-align: left;
 `;

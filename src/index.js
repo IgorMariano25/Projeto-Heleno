@@ -10,7 +10,7 @@ import Contato from "./pages/Contato";
 import Sobre from "./pages/Sobre";
 import PessoaCard from "./components/Card/PessoaCard";
 import ProjetoCard from "./components/CardProjetos/ProjetoCard";
-//para rodar o pipeline
+//para rodar o pipeline de novo
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
