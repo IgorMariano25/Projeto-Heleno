@@ -11,7 +11,7 @@ import Sobre from "./pages/Sobre";
 import InfoAluno from "./pages/InfoAluno";
 import InfoPortifolio from "./pages/InfoPortifolio";
 
-//para rodar o pipeline de novo
+//para rodar o pipeline
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
