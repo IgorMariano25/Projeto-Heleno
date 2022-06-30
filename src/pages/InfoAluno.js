@@ -5,7 +5,7 @@ import arquivo from "../dados.json";
 import { useParams } from "react-router-dom";
 
 import "../App.css";
-import { useState, useEffect, useCallback } from "react";
+import { useState } from "react";
 
 const Perfil = () => {
   const [dados, setDados] = useState(arquivo);

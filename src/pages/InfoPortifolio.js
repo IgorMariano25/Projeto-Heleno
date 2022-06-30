@@ -4,11 +4,11 @@ import RodaPe from "../components/footer/footer";
 import ProjetoCardDetalhado from "../components/CardProjetos/ProjetoCardDetalhado";
 import arquivo from "../projetos.json";
 import { useParams } from "react-router-dom";
-import { useState, useEffect, useCallback } from "react";
+import { useState } from "react";
 
 
 const ProjetoDetalhado = () => {
-    const [dadosProjeto, setDadosProjeto] = useState(arquivo)
+    const [dadosProjeto] = useState(arquivo)
     const { id } = useParams();
 
     const filtrados = dadosProjeto.filter(
