@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const PessoaCard = ( props ) => {
     const navigate = useNavigate();
     return (  
-            <Card onClick={()=>navigate(`${props.ID}`)}>
+            <Card onClick={()=>navigate(`${process.env.PUBLIC_URL}/alunos/${props.ID}`)}>
                 <Img
                 src= { `imagens/${props.imagem}` }
                 alt={props.nome}

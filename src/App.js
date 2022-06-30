@@ -52,6 +52,7 @@ function App() {
                                       titulo = {p.titulo}
                                       tecnologias = {p.tecnologias}
                                       participantes = {p.participantes}
+                                      ID = {p.ID}
                               />
                           ))
                       }
@@ -70,6 +71,7 @@ function App() {
                                     imagem = {p.imagem}
                                     nome = {p.nome}
                                     curso = {p.curso}
+                                    ID = {p.ID}
                             />
                         ))
                     }

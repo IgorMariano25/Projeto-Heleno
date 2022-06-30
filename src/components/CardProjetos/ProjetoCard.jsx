@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const ProjetoCard = ( props ) => {
     const navigate = useNavigate();
     return (
-        <Card onClick={()=>navigate(`${props.ID}`)}>
+        <Card onClick={()=>navigate(`${process.env.PUBLIC_URL}/portfolios/${props.ID}`)}>
             <Img 
             src= { `imagens_projetos/${props.fotoProjeto}` }
             alt={props.título}
