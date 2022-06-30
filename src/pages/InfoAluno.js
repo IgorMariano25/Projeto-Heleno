@@ -8,7 +8,7 @@ import "../App.css";
 import { useState } from "react";
 
 const Perfil = () => {
-  const [dados, setDados] = useState(arquivo);
+  const [dados] = useState(arquivo);
   const { id } = useParams();
 
   const filtrados = dados.filter(
