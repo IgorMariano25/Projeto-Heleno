@@ -8,6 +8,7 @@ build:
   variables: 
     # Replace this with your site URL
     PUBLIC_URL: http://projeto-multidisciplinar.gitlab.io/heleno-app
+    BASENAME: /heleno-app
   script:
     - npm install      
     - npm run build
