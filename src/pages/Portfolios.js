@@ -61,6 +61,7 @@ const Projetos = () => {
                                     titulo = {p.titulo}
                                     tecnologias = {p.tecnologias}
                                     participantes = {p.participantes}
+                                    ID = {p.ID}
                             />
                         ))
                     }

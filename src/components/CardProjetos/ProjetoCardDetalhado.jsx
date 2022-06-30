@@ -4,7 +4,7 @@ const ProjetoCard = ( props ) => {
     return (
         <Card>
             <Img
-            src= { `imagens_projetos/${props.fotoProjeto}` }
+            src= { `${process.env.PUBLIC_URL}/imagens_projetos/${props.fotoProjeto}` }
             alt={props.título}
             />
             <Textos>
