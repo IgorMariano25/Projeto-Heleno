@@ -16,7 +16,7 @@ import InfoPortifolio from "./pages/InfoPortifolio";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename={"/heleno-app" || ""}>
+    <BrowserRouter basename={ process.env.PUBLIC_URL || ""}>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="portfolios" element={<Portfolios />} />
@@ -24,7 +24,7 @@ root.render(
         <Route path="alunos" element={<Alunos />} />
         <Route path="alunos/:id" element={<InfoAluno />} />
         <Route path="contato" element={<Contato />} />
-        <Route path="Sobre" element={<Sobre />} />
+        <Route path="sobre" element={<Sobre />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

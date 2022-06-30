@@ -13,10 +13,10 @@ const Topo = ( props ) => {
                     onClick={()=>navigate("/")}
             />
             <Textos>
-                <Link to="/Portfolios">Portfólios</Link>
-                <Link to="/Alunos">Alunos</Link>
-                <Link to="/Contato">Contato</Link>
-                <Link to="/Sobre">Sobre</Link>
+                <Link to="/portfolios">Portfólios</Link>
+                <Link to="/alunos">Alunos</Link>
+                <Link to="/contato">Contato</Link>
+                <Link to="/sobre">Sobre</Link>
             </Textos>
         </Card>
         </nav>
