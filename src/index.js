@@ -16,7 +16,7 @@ import InfoPortifolio from "./pages/InfoPortifolio";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL || ""}>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="portfolios" element={<Portfolios />} />
